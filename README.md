@@ -1,5 +1,7 @@
 # agentevals-otel-roundtrip
 
+> 📖 **Read the write-up:** [agentevals v0.10.0: Scores Come Back as OpenTelemetry Events](https://webofmike.com/agentevals-otel-native/)
+
 [agentevals](https://github.com/agentevals-dev/agentevals) v0.10.0 (released 2026-10-09) went
 OpenTelemetry-native: it ingests OTLP traces from any GenAI-instrumented agent and, with
 `--emit-otel`, sends every evaluation score back out as a standard `gen_ai.evaluation.result`
